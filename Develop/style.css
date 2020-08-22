@@ -6,12 +6,11 @@ body {
 
 textarea{
   background: transparent;
-  border: auto;
+  border: solid;
   resize: responsive;
   color: #000000;
   border-left: 1px solid black;
-  padding: 5px;
-  margin-right: 55px;
+  padding: 10px;
 }
 
 
@@ -30,11 +29,13 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  padding: 0%;
+  padding-top: 25px;
 }
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 70px;
   border-top: 1px solid white;;
 }
 
@@ -61,13 +62,14 @@ textarea{
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 5px;
   background-color: #06AED5;
   color: white;
+
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 16px;
   transition: all .3s ease-in-out;
 }
