@@ -6,11 +6,12 @@ body {
 
 textarea{
   background: transparent;
-  border: none;
-  resize: none;
+  border: auto;
+  resize: responsive;
   color: #000000;
   border-left: 1px solid black;
   padding: 5px;
+  margin-right: 55px;
 }
 
 .jumbotron {
