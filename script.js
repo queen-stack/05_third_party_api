@@ -1,11 +1,7 @@
 // A $( document ).ready() block. - all code must go into bock
-$(document).ready(function () {
-    var today = moment().format('dddd, LL');
-    $('#currentDay').html(today)
-    
-});
+
 // The range of "normal business" hours in 24-hour format
-var hoursInWorkday = 9;  // number of "working" hours to show in the planner (don't forget lunch)
+var hoursInWorkday = 10;  // number of "working" hours to show in the planner (don't forget lunch)
 var startHour = 9;       // first "working" hour of the day
 
 // Use this date to set the colors of the time slots on the planner.
@@ -120,7 +116,7 @@ $(document).on('click', '.saveBtn', function() {
 
 
 $(document).ready(function() {
-    var today = moment().format('dddd, MMMM Do');
+    var today = moment().format('LLLL');
     $('#currentDay').html(today)
 
     drawPlanner();   
